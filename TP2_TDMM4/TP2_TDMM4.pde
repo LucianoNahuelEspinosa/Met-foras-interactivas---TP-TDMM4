@@ -1,3 +1,10 @@
+/*
+
+Desarrollado por: Luciano Nahuel Espinosa. 2020
+Diseñado por: Chazarreta, Joaquin - Di Loreto Lautaro - Malanchino, Facundo - Villareal, Andrea Belen
+
+*/
+
 import fisica.*;
 FWorld mundo;
 
