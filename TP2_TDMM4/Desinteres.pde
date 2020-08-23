@@ -67,10 +67,10 @@ class Desinteres {
       if ( dist(xJ, yJ, posX[i], posY[i]) < tam*2 ) {
         if ( xJ > posX[i] && yJ < posY[i]+50 && yJ > posY[i]-50 ) {
           //ang[i] = -90;
-          ang[i] = map(yJ, posY[i], posY[i]+70, -45, 10);
+          ang[i] = map(yJ, posY[i], posY[i]+70, -60, -10);
         } else if ( xJ < posX[i] && yJ < posY[i]+50 && yJ > posY[i]-50 ) {
           //ang[i] = 90;
-          ang[i] = map(yJ, posY[i], posY[i]+70, 45, -10);
+          ang[i] = map(yJ, posY[i], posY[i]+70, 60, -10);
         } else if ( xJ > posX[i] && yJ > posY[i] ) {
           ang[i] = map(xJ, posX[i], posX[i]+70, 0, -45);
           println(xJ);
@@ -79,7 +79,7 @@ class Desinteres {
           ang[i] = map(xJ, posX[i], posX[i]-70, 0, 45);
         } else if ( xJ < posX[i] && yJ < posY[i] ) {
           //ang[i] = 180;
-          ang[i] = map(xJ, posX[i], posX[i]-70, 180, 45);
+          ang[i] = map(xJ, posX[i], posX[i]-70, 180, 120);
         } else if ( xJ > posX[i] && yJ < posY[i] ) {
           //ang[i] = 180;
           ang[i] = map(xJ, posX[i], posX[i]-70, 180, 120);
